@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.MaskedText">
+        <item name="android:background">@null</item>
+        <item name="android:digits">1234567890</item>
+        <item name="android:hint">@string/phone_hint</item>
+        <item name="android:importantForAutofill" tools:ignore="NewApi">no</item>
+        <item name="android:inputType">number</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:typeface">monospace</item>
+        <item name="allowed_chars">1234567890</item>
+        <item name="enable_ime_action">true</item>
+        <item name="keep_hint">true</item>
+        <item name="mask">@string/phone_mask</item>
+        <item name="patternRegEx">@string/phonePattern</item>
+    </style>
+
+
+
+</resources>

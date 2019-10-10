@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MaskedEditTextExample</string>
+    <string name="phone_mask">+996(###)-##-##-##</string>
+    <string name="phone_hint">_________</string>
+    <string name="phonePattern">(^((\\+996)|(0)|(996))(\\d{2})(\\d{7})$)|(^(\\+90)(5)(\\d{9})$)|(^(\\+7)(7)(\\d{9})$)</string>
+</resources>
